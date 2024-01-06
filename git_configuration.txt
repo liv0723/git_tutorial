@@ -1,0 +1,3 @@
+git config --global user.email <email>          config the email of user
+git cinfig --global user.name <name>            config the name of user
+git config list                                 show the configuration of git 

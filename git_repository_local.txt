@@ -1,0 +1,75 @@
+git init                        init a new repository local and create the chapter .git
+
+git status                                             show the status of file
+
+git add <name of file>                                 added the files pending to changes
+git add *
+
+git commit -m <message to commit>                      Captures code state and stores it in the local repository. After git add *
+
+git commit --amend                                     Open a text editor with the changes from the last commit and possible modifications and make a commit replacing the last one.
+
+git tag                                                tags lists
+
+git tag <name of tag> -m "Release x.y.z"               create a tag       
+
+git tag -d <name of tag>                               delete a tag
+
+
+git tag -a <name of tag> <codigo> -m "Release x.y.z"   create a tag in a before commit 
+
+git show <name of tag>                                 show the information of tag
+
+git reset                                              Deshace la captura del estado del código
+
+git reset --hard <codigo>                              We change to a specific commit, losing all changes after it.
+
+git log --oneline                                      show the commit do it 
+
+git log --oneline --graph --all                        Lista todos los commits de todas las ramas de forma gráfica tomando como base la rama actual
+
+git checkout <codigo>                                  change to a specific commit
+
+git diff <codigo> <codigo>                             show the change between 2 commit 
+
+git branch <name of branch>                            create a new branch
+
+git branch                                             show the branch
+
+git checkout <name of branch>                          move to branch
+
+git branch -m <new name of branch>                     rename the branch
+
+git branch -d <name of branch>                         delete a branch
+
+git merge <name of branch>                             une two branch
+
+git merge --no-ff develop                              Permite juntar dos ramas, pero las mantiene. Genera un commit del merge en la rama actual
+
+git rebase main                                        Permite traer los commits de otra rama a la rama actual reorganizán los commits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

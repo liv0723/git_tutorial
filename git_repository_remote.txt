@@ -1,0 +1,31 @@
+git remote add origin <url or ssh to repository>              Link remote repository with local repository
+
+git remote set-url origin <new url>                           change the url of remote repository
+
+git remote -v                                                 show the information of remote repository
+
+git push -u origin <name of branch>                           Upload changes from local to remote repository and specify master branch
+
+git push                                                      upload changes to origin branch
+
+git push origin <name of branch>                              upload change to specific branch
+
+git push origin --delete <name of branch>                     delete a specific branch
+
+git push --tags                                               upload all local tags to remote repository
+
+git tag -d <name of tag>                                      delete a tag remote repository
+
+git pull                                                      Download changes from the remote repository and update the local one to the default branch
+
+git pull origin <name branch>                                 Download changes from the remote repository and update the local one to a specific branch
+
+git clone <url of remote repository>                          Clone a remote repository to the default branch
+
+git clone --branch <name of branch> <url of remote repo>      Clone a remote repository to a specific branch
+
+
+
+
+
+

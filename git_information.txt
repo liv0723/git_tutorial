@@ -1,0 +1,2 @@
+git --version                        show the information of git
+git help <command>                   show help about command
